@@ -1,8 +1,25 @@
+.Navbar_HERO {
+  display: flex;
+  justify-content: center;
+}
 .Navbar {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 25px;
+  background-color: black;
+  padding: 5px 8px;
+  border-radius: 20px;
 }
 .Navbar button {
   cursor: pointer;
+  border: none;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+  font-family: sans-serif;
+}
+.Navbar button:hover {
+  background-color: rgb(27, 27, 27);
+  border-radius: 5px;
 }
